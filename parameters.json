@@ -1,0 +1,29 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "mspOfferName": {
+            "value": "Azure Management - mcLighthouse"
+        },
+        "mspOfferDescription": {
+            "value": "Azure MSSP Services"
+        },
+        "managedByTenantId": {
+            "value": "7cec5621-98aa-4b5b-bfc3-4f534028a0a5"
+        },
+        "authorizations": {
+            "value": [
+                {
+                    "principalId": "a3fffb64-b368-4948-b9fc-62559d3b9cb4",
+                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
+                    "principalIdDisplayName": "Tier 1 Support"
+                },
+                {
+                    "principalId": "f7bacbf7-1665-4ff8-8185-993eed9a5d93",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
+                    "principalIdDisplayName": "Tier 2 Support"
+                }
+            ]
+        }
+    }
+}
