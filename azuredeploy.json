@@ -7,21 +7,21 @@
         "metadata": {
           "description": "Specify a unique name for your offer"
         },
-        "defaultValue": "Mandiant Advanced Hunting: ATP"
+        "defaultValue": "Azure Management - mcLighthouse"
       },
       "mspOfferDescription": {
         "type": "string",
         "metadata": {
           "description": "Name of the Managed Service Provider offering"
         },
-        "defaultValue": "Mandiant Advanced Hunting: ATP"
+        "defaultValue": "Azure Management - mcLighthouse"
       },
       "managedByTenantId": {
         "type": "string",
         "metadata": {
           "description": "Specify the tenant id of the Managed Service Provider"
         },
-        "defaultValue": "c34b2b07-073e-4abd-aca0-7e1b04a327c8"
+        "defaultValue": "7cec5621-98aa-4b5b-bfc3-4f534028a0a5"
       },
         "authorizations": {
             "type": "array",
@@ -30,10 +30,15 @@
             },
           "defaultValue": [
             {
-              "principalId": "ddfb42e7-3edb-42af-a2a3-230a92b46d19",
-              "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
-              "principalIdDisplayName": "mandiant-customer-contributor"
-            }
+                    "principalId": "a3fffb64-b368-4948-b9fc-62559d3b9cb4",
+                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
+                    "principalIdDisplayName": "Tier 1 Support"
+                },
+                {
+                    "principalId": "f7bacbf7-1665-4ff8-8185-993eed9a5d93",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
+                    "principalIdDisplayName": "Tier 2 Support"
+                }
           ]
         }
     },
