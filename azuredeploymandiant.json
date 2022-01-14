@@ -28,12 +28,17 @@
             "metadata": {
                 "description": "Specify an array of objects, containing tuples of Azure Active Directory principalId, a Azure roleDefinitionId, and an optional principalIdDisplayName. The roleDefinition specified is granted to the principalId in the provider's Active Directory and the principalIdDisplayName is visible to customers."
             },
-          "defaultValue": [
+         "defaultValue": [
             {
               "principalId": "ddfb42e7-3edb-42af-a2a3-230a92b46d19",
               "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
               "principalIdDisplayName": "mandiant-customer-contributor"
-            }
+            },
+                {
+                    "principalId": "ddfb42e7-3edb-42af-a2a3-230a92b46d19",
+                    "roleDefinitionId": "a638d3c7-ab3a-418d-83e6-5f17a39d4fde",
+                    "principalIdDisplayName": "mandiant-eventhub-receiver"
+                }
           ]
         }
     },
