@@ -41,8 +41,8 @@
                 },
                 {
                     "principalId": "def02ecf-3eb0-45c7-abff-7b58485fba38",
-                    "roleDefinitionId": "a638d3c7-ab3a-418d-83e6-5f17a39d4fde",
-                    "principalIdDisplayName": "System Identity Event Hub Data Receiver"
+                    "roleDefinitionId": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
+                    "principalIdDisplayName": "System Identity User Access Administrator"
                 }
           ]
         }
