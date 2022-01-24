@@ -36,7 +36,12 @@
                     "delegatedRoleDefinitionIds": [
                         "a638d3c7-ab3a-418d-83e6-5f17a39d4fde"
                      ]                   
-                }        
+                } , 
+                { 
+                    "principalId": "f7bacbf7-1665-4ff8-8185-993eed9a5d93", 
+                    "roleDefinitionId": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+                    "principalIdDisplayName": "Tier 2 Support" 
+                }    
             ]
         }              
     },
