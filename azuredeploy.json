@@ -36,12 +36,15 @@
                 },
                 {
                     "principalId": "f7bacbf7-1665-4ff8-8185-993eed9a5d93",
+                    "principalIdDisplayName": "Tier 2 Support",
                     "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
-                    "principalIdDisplayName": "Tier 2 Support"
+                                        "delegatedRoleDefinitionIds": [
+                        "a638d3c7-ab3a-418d-83e6-5f17a39d4fde"
+                     ]
                 },
                 {
                     "principalId": "def02ecf-3eb0-45c7-abff-7b58485fba38",
-                    "principalIdDisplayName": "System Identity Event Hub Data Reciever Role",
+                    "principalIdDisplayName": "MaIdentity Event Hub Data Reciever Role",
                     "roleDefinitionId": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
                     "delegatedRoleDefinitionIds": [
                         "a638d3c7-ab3a-418d-83e6-5f17a39d4fde"
