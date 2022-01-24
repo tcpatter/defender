@@ -36,11 +36,6 @@
                     "delegatedRoleDefinitionIds": [
                         "a638d3c7-ab3a-418d-83e6-5f17a39d4fde"
                      ]                   
-                }, 
-                { 
-                    "principalId": "f7bacbf7-1665-4ff8-8185-993eed9a5d93", 
-                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
-                    "principalIdDisplayName": "Lighthouse Contributor" 
                 }        
             ]
         }              
