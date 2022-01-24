@@ -38,7 +38,7 @@
                     "principalId": "f7bacbf7-1665-4ff8-8185-993eed9a5d93", 
                     "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
                     "principalIdDisplayName": "Tier 2 Contributor" 
-                }
+                },
                 { 
                     "principalId": "1e0e3b94-9f5b-438d-97c0-b5df364db830", 
                     "principalIdDisplayName": "Tier 3 User Access Administrator",
