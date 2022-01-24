@@ -32,11 +32,16 @@
                 { 
                     "principalId": "a3fffb64-b368-4948-b9fc-62559d3b9cb4", 
                     "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
-                    "principalIdDisplayName": "Tier 1 Support" 
-                }, 
+                    "principalIdDisplayName": "Tier 1 Reader" 
+                },
+                { 
+                    "principalId": "f7bacbf7-1665-4ff8-8185-993eed9a5d93", 
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
+                    "principalIdDisplayName": "Tier 2 Contributor" 
+                }
                 { 
                     "principalId": "1e0e3b94-9f5b-438d-97c0-b5df364db830", 
-                    "principalIdDisplayName": "Tier 2 Support",
+                    "principalIdDisplayName": "Tier 3 User Access Administrator",
                     "roleDefinitionId": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
                     "delegatedRoleDefinitionIds": [
                         "a638d3c7-ab3a-418d-83e6-5f17a39d4fde"
@@ -44,7 +49,7 @@
                 },
                  {
                     "principalId": "def02ecf-3eb0-45c7-abff-7b58485fba38",
-                    "principalIdDisplayName": "System Identity Event Hub Data Reciever Role",
+                    "principalIdDisplayName": "Tier 4 Event Hub Data Reciever Role",
                     "roleDefinitionId": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
                     "delegatedRoleDefinitionIds": [
                         "a638d3c7-ab3a-418d-83e6-5f17a39d4fde"
