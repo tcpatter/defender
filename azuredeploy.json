@@ -50,6 +50,7 @@
                         "a638d3c7-ab3a-418d-83e6-5f17a39d4fde"
                      ]
                 }
+              }
     },
     "variables": {
         "mspRegistrationName": "[guid(parameters('mspOfferName'))]",
