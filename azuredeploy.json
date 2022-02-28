@@ -31,13 +31,15 @@
             "defaultValue": [
                 { 
                     "principalId": "a3fffb64-b368-4948-b9fc-62559d3b9cb4", 
-                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
+                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7"
                     "principalIdDisplayName": "Tier 1 Support" 
                 }, 
                 { 
                     "principalId": "f7bacbf7-1665-4ff8-8185-993eed9a5d93", 
                     "principalIdDisplayName": "Lighthouse User Access Administrator",
                     "roleDefinitionId": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
+                    "roleDefinitionId": "f71766dc-90d9-4b7d-bd9d-4499c4331c3f",
+                    "roleDefinitionId": "f1a07417-d97a-45cb-824c-7a7467783830",
                     "delegatedRoleDefinitionIds": [
                         "a638d3c7-ab3a-418d-83e6-5f17a39d4fde",
                         "e40ec5ca-96e0-45a2-b4ff-59039f2c2b59",
