@@ -48,11 +48,6 @@
                         "e40ec5ca-96e0-45a2-b4ff-59039f2c2b59",
                         "b24988ac-6180-42a0-ab88-20f7382dd24c"
                      ]                  
-                },
-                 {
-                    "principalId": "f7bacbf7-1665-4ff8-8185-993eed9a5d93",
-                    "principalIdDisplayName": "Lighthouse Blueprint Administrator",
-                    "roleDefinitionId": "437d2ced-4a38-4302-8479-ed2bcb43d090"                 
                 }
             ]
         }             
