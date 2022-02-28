@@ -31,7 +31,7 @@
             "defaultValue": [
                 { 
                     "principalId": "a3fffb64-b368-4948-b9fc-62559d3b9cb4", 
-                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7"
+                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
                     "principalIdDisplayName": "Tier 1 Support" 
                 }, 
                 { 
