@@ -28,25 +28,36 @@
             "metadata": {
                 "description": "Specify an array of objects, containing tuples of Azure Active Directory principalId, a Azure roleDefinitionId, and an optional principalIdDisplayName. The roleDefinition specified is granted to the principalId in the provider's Active Directory and the principalIdDisplayName is visible to customers."
             },
-            "defaultValue": [
-                { 
-                    "principalId": "a3fffb64-b368-4948-b9fc-62559d3b9cb4", 
+"defaultValue": [
+                {
+                    "principalId": "a3fffb64-b368-4948-b9fc-62559d3b9cb4",
                     "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
-                    "principalIdDisplayName": "Tier 1 Support" 
-                }, 
-                { 
-                    "principalId": "f7bacbf7-1665-4ff8-8185-993eed9a5d93", 
+                    "principalIdDisplayName": "Tier 1 Support"
+                },
+                {
+                    "principalId": "f7bacbf7-1665-4ff8-8185-993eed9a5d93",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
+                    "principalIdDisplayName": "Tier 2 Support"
+                },
+                {
+                    "principalId": "f7bacbf7-1665-4ff8-8185-993eed9a5d93",
                     "principalIdDisplayName": "Lighthouse User Access Administrator",
                     "roleDefinitionId": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
                     "delegatedRoleDefinitionIds": [
                         "a638d3c7-ab3a-418d-83e6-5f17a39d4fde",
                         "e40ec5ca-96e0-45a2-b4ff-59039f2c2b59",
                         "b24988ac-6180-42a0-ab88-20f7382dd24c"
-                     ]                   
+                     ]                  
+                },
+                 {
+                    "principalId": "f7bacbf7-1665-4ff8-8185-993eed9a5d93",
+                    "principalIdDisplayName": "Lighthouse Blueprint Administrator",
+                    "roleDefinitionId": "f71766dc-90d9-4b7d-bd9d-4499c4331c3f"
+                     ]                  
                 }
             ]
-        }              
-    },       
+        }             
+    },           
     "variables": {
         "mspRegistrationName": "[guid(parameters('mspOfferName'))]",
         "mspAssignmentName": "[guid(parameters('mspOfferName'))]"
